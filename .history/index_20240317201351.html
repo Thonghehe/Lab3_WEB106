@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+        }
+
+        .header {
+            padding: 50px;
+            text-align: center;
+            background-color: rgb(11, 199, 199);
+            color: aliceblue;
+        }
+
+        .navbar {
+            /* padding: 50px; */
+            display: flex;
+            background-color: aquamarine;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: rgb(247, 15, 54);
+            padding: 15px 15px;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            background-color: rgb(88, 88, 226);
+            color: aliceblue;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+
+        }
+
+        .side {
+            flex: 30%;
+            background-color: rgb(236, 255, 127);
+            padding: 20px;
+        }
+
+        .main {
+            flex: 70%;
+            padding: 20px;
+            background-color: blanchedalmond;
+        }
+
+        .fimg {
+            background-color: chartreuse;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background-color: chocolate;
+        }
+
+        @media screen and (max-width: 768px) {
+
+            .row,
+            .navbar {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: blanchedalmond;padding: 10px;">
+        <h3 style="text-align: center;">
+            Profiles
+        </h3>
+        <!-- Header -->
+    </div>
+    <div class="header">
+        <h1>Website cua toi</h1>
+        <p>Nguyễn Kim Thông</p>
+    </div>
+    <!-- Menu -->
+    <div class="navbar">
+        <a href="#">Tiểu sử</a>
+        <a href="#">Gia Đình</a>
+        <a href="#">Sở Thích</a>
+        <a href="#">Học Tập</a>
+        <a href="#">Liên hệ</a>
+    </div>
+    <div class="row">
+        <div class="side">
+            <h2>Gioi Thieu</h2>
+            <h3>Trang 1</h3>
+            <p>Noi dung cha co gi trong nay ca dau</p>
+            <p>Noi dung cha co gi trong nay ca dau</p>
+            <p>Noi dung cha co gi trong nay ca dau</p>
+            <p>Noi dung cha co gi trong nay ca dau</p>
+            <div class="fimg" style="height: 100px;"><img style="height: 100%; width: 100%;"
+                    src="https://tse4.mm.bing.net/th?id=OIP.k328saUZRPsnrMnjVlxyggHaEK&pid=Api&P=0&h=180" alt=""></div>
+            <br />
+            <div class="fimg" style="height: 100px;"><img style="height: 100%; width: 100%;"
+                    src="https://tse4.mm.bing.net/th?id=OIP.k328saUZRPsnrMnjVlxyggHaEK&pid=Api&P=0&h=180" alt=""></div>
+            <br>
+            <div class="fimg" style="height: 100px;"><img style="height: 100%; width: 100%;"
+                    src="https://tse4.mm.bing.net/th?id=OIP.k328saUZRPsnrMnjVlxyggHaEK&pid=Api&P=0&h=180" alt=""></div>
+            <br>
+            <div class="fimg" style="height: 100px;"><img style="height: 100%; width: 100%;"
+                    src="https://tse4.mm.bing.net/th?id=OIP.k328saUZRPsnrMnjVlxyggHaEK&pid=Api&P=0&h=180" alt=""></div>
+            <br>
+            <div class="fimg" style="height: 100px;"><img style="height: 100%; width: 100%;"
+                    src="https://tse4.mm.bing.net/th?id=OIP.k328saUZRPsnrMnjVlxyggHaEK&pid=Api&P=0&h=180" alt=""></div>
+        </div>
+        <div class="main">
+            <h2>Đây là main</h2>
+            <h5>Còn ten</h5>
+            <div class="fimg" style="height: 200px;"><img style="height: 100%;"
+                    src="https://tse3.mm.bing.net/th?id=OIP.LsfgxiK-zZ_j7E49H56e-wHaEK&pid=Api&P=0&h=180" alt=""></div>
+            <p>Thêm vào cho nhiều chữ chứ em không biết viết gì thầy ạ</p><br />
+            <h2>Đây là main 2</h2>
+            <h5>Còn ten</h5>
+            <div class="fimg" style="height: 200px;"><img style="height: 100%;"
+                    src="https://tse3.mm.bing.net/th?id=OIP.LsfgxiK-zZ_j7E49H56e-wHaEK&pid=Api&P=0&h=180" alt=""></div>
+            <p>Thêm vào cho nhiều chữ chứ em không biết viết gì thầy ạ</p><br />
+            <br />
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <h1>Nguyễn Kim Thông-PH48198</h1>
+    </div>
+</body>
+
+</html>
